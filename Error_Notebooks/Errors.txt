@@ -1,4 +1,18 @@
-Errors-
-ValueError: zero-size array to reduction operation minimum which has no identity
+1)cover_depth_measurement_Mississipi_11002200250005A------ValueError: zero-size array to reduction operation minimum which has no identity
 
 This error is while finding actually co-ordinates to plot the cover depth
+
+
+-------------------
+Errors that can be solved
+nums of clusters is 100 by default and if samples are less than 100, have to adjust it in notebook
+
+
+-------------------
+Fixed bugs---
+
+Lanes make reions/ zones. Zones make the entire bridge
+
+Lanes if not marked in sequence(Example- 0,1,2,3,4) it didn't pick in corrosion_notebook_Mississipi_11002200250005A notebook
+
+SOLVED by renaming data to fall in sequence.
