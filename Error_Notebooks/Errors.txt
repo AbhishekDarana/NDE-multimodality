@@ -1,0 +1,4 @@
+Errors-
+ValueError: zero-size array to reduction operation minimum which has no identity
+
+This error is while finding actually co-ordinates to plot the cover depth
